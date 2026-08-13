@@ -15,6 +15,7 @@ continues searching under a bounded model-call budget.
 - `Results/`: saved Vole JSONL logs for the 86 topics.
 - `Qrels/`: base qrels, local UMBRELA hole-filling qrels, and the combined
   qrels used for evaluation.
+- `UMBRELA.md`: the recipe for generating relevance judgments with UMBRELA.
 - `vole_run.py`: converts Vole logs to a TREC-format run.
 - `vole.man86.run`: the Vole run derived from the saved logs.
 - `ndcg.man86.tsv`: the full version of Figure 3 from the paper, including
